@@ -17,4 +17,13 @@ const User = Schema({
     },
 });
 
+const collNubox = Schema({
+    status: { type: String },
+    timeStamp: { type: String },
+    snapPath: { type: String }
+
+});
+
+
 module.exports = mongoose.model("User", User);
+module.exports = mongoose.model("collNubox", collNubox);
