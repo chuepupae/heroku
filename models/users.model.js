@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+/* const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const User = Schema({
@@ -24,6 +24,10 @@ const collNubox = Schema({
 
 });
 
+const Test = Schema({
+    name: { type: String, required: true, unique: true }
+});
 
 module.exports = mongoose.model("User", User);
 module.exports = mongoose.model("collNubox", collNubox);
+module.exports = mongoose.model("Test", Test); */
